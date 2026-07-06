@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-verz-black: #000000;
+  --color-verz-white: #ffffff;
+  --color-verz-gold: #D4AF37;
+  --color-verz-gray: #333333;
+}
+
+body {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #f9fafb;
+}
