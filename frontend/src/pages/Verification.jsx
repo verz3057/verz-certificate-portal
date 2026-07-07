@@ -21,7 +21,7 @@ const Verification = () => {
 
     const verifyCert = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/verify/${rollNumber}`);
+        const response = await axios.get(`${import.meta.env.VITE_API_URL}/api/verify/${rollNumber}`);
         setStudent(response.data);
         setStatus('verified');
       } catch (err) {
